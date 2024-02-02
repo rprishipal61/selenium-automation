@@ -23,7 +23,7 @@ public class AssignmentOneModuleTen {
 	@BeforeTest
 	public void setUp()
 	{
-		WebDriverManager.chromedriver().setup();
+	    WebDriverManager.chromedriver().setup();
 	    driver=new ChromeDriver();
 	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 	    driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
